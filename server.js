@@ -27,6 +27,9 @@ app.use('/api/v1/products', ProductRouter)
 // cart routes
 app.use('/api/v1/cart', CartRouter)
 
+//order routes
+app.use('/api/v1/orders', OrderRouter);
+
 
 let PORT = process.env.PORT || 8080;
 
