@@ -5,6 +5,7 @@ import connectDB from "./src/config/db.js";
 import TenantRouter from "./src/modules/tenant/tenant.routes.js";
 import ProductRouter from "./src/modules/product/product.routes.js";
 import CartRouter from "./src/modules/cart/cart.routes.js";
+import OrderRouter from "./src/modules/order/order.routes.js";
 
 dotenv.config();
 

@@ -1,5 +1,5 @@
 import express from "express";
-import {login, registerController, testAuth} from './auth.controller.js'
+import {login, registerController} from './auth.controller.js'
 import { identifyTenant } from "../../middleware/tenant.middleware.js";
 
 const authRouter = express.Router();

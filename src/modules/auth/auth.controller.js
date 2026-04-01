@@ -1,4 +1,4 @@
-import { loginUser, registerUserService, testService } from "./auth.service.js"
+import { loginUser, registerUserService } from "./auth.service.js"
 
 
 

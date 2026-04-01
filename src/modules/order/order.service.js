@@ -1,4 +1,4 @@
-import OrderModel from "./order.model"
+import OrderModel from "./order.model.js"
 
 export const OrderCreateService = async(order) => {
     const newOrder = await OrderModel.create(order)
